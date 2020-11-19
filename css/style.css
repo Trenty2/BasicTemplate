@@ -24,10 +24,6 @@ img {
   color: #5cdb95;
 }
 
-/* HEADER */
-#main-header {
-}
-
 /* NAVBAR */
 #navbar {
   text-transform: uppercase;
@@ -84,6 +80,7 @@ img {
   font-weight: 500;
   transition: 0.4s linear;
   border-radius: 3em;
+  text-decoration: none;
 }
 
 .content a:hover {
