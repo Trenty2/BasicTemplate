@@ -2,6 +2,8 @@ body {
   font-family: "Open-sans", sans-serif;
   font-size: 17px;
   line-height: 1.5em;
+  margin: 0;
+  padding: 0;
 }
 
 /*Common Classes*/
@@ -91,7 +93,7 @@ img {
   font-size: 35px;
   margin: 0;
   padding: 0;
-  padding-bottom: 40px;
+  padding-bottom: 10px;
 }
 
 #skills .square:hover {
@@ -110,4 +112,40 @@ img {
 #skills .fas:hover {
   color: #5cdb95;
   transform: rotate(35deg);
+}
+
+.borderG {
+  width: 160px;
+  height: 5px;
+  background: #5cdb95;
+  margin: 26px auto;
+}
+
+/*Testimonials*/
+#testimonials {
+  padding: 40px;
+  background: #05386b;
+  color: #5cdb95;
+  text-align: center;
+}
+
+#testimonials h2 {
+  font-size: 35px;
+}
+
+.borderW {
+  width: 160px;
+  height: 5px;
+  background: #edf5e1;
+  margin: 26px auto;
+}
+
+.info {
+  font-size: 20px;
+  margin: 20px 0;
+}
+
+.stars {
+  color: #5cdb95;
+  margin-bottom: 20px;
 }
