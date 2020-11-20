@@ -2,8 +2,6 @@ body {
   font-family: "Open-sans", sans-serif;
   font-size: 17px;
   line-height: 1.5em;
-  margin: 0;
-  padding: 0;
 }
 
 /*Common Classes*/
@@ -85,4 +83,30 @@ img {
 
 .content a:hover {
   background: black;
+}
+
+/*Skills*/
+
+#skills h2 {
+  font-size: 35px;
+  margin: 0;
+  padding: 0;
+  padding-bottom: 40px;
+}
+
+#skills .square {
+  border: solid;
+}
+
+#skills .fas,
+.fa {
+  font-size: 40px;
+  color: #5cdb95;
+}
+
+#skills .fa:hover,
+#skills .fas:hover {
+  font-size: 40px;
+  color: black;
+  transform: rotate(35deg);
 }
