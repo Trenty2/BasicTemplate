@@ -94,19 +94,20 @@ img {
   padding-bottom: 40px;
 }
 
-#skills .square {
-  border: solid;
+#skills .square:hover {
+  color: #5cdb95;
+  border: solid #5cdb95;
 }
 
 #skills .fas,
 .fa {
   font-size: 40px;
-  color: #5cdb95;
+  color: black;
+  padding: 20px;
 }
 
 #skills .fa:hover,
 #skills .fas:hover {
-  font-size: 40px;
-  color: black;
+  color: #5cdb95;
   transform: rotate(35deg);
 }
