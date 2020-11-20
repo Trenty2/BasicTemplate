@@ -37,7 +37,7 @@ img {
 
 #navbar a {
   text-decoration: none;
-  color: #fff;
+  color: #edf5e1;
 }
 
 #navbar li.current a,
@@ -75,7 +75,7 @@ img {
   line-height: 54px;
   background: #5cdb95;
   text-align: center;
-  color: #fff;
+  color: #edf5e1;
   text-transform: uppercase;
   font-weight: 500;
   transition: 0.4s linear;
