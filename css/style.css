@@ -89,6 +89,10 @@ img {
 
 /*Skills*/
 
+#skills {
+  background: #fff;
+}
+
 #skills h2 {
   font-size: 35px;
   margin: 0;
@@ -148,4 +152,35 @@ img {
 .stars {
   color: #5cdb95;
   margin-bottom: 20px;
+}
+
+/*Contact*/
+
+#contact {
+  background: #fff;
+}
+input[type="text"],
+select,
+textarea {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #5cdb95;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 4px;
+  margin-bottom: 12px;
+  resize: both;
+}
+
+input[type="submit"] {
+  background-color: #fff;
+  color: black;
+  padding: 12px 20px;
+  border: solid #5cdb95;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input[type="submit"]:hover {
+  background-color: #5cdb95;
 }
